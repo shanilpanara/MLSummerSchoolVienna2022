@@ -33,15 +33,14 @@ The assignment: Run a Jupyter notebook server from within a virtual environment.
 * Create a new `MLSummerSchoolVienna2022` folder (this will be the root of this project).
 * Change director to your newly created project root folder.
 * Download the `notebook.ipynb` file from this repository.
-* Create a new empty file called `requirements.txt` and fill it with dependencies of `notebook.ipynb` (or just download it from the repository).
+* Create a new empty file called `requirements.txt` and fill it with dependencies of `notebook.ipynb` + jupyter and voila (or just download it from the repository).
 * Install `virtualenv` & create a virtual environment in `venv` folder (steps depend on your OS).
   In case you are more comfortable with Conda, feel free to use it instead of virtualenv.
-* Install dependencies from `requirements.txt`. (The torch+cpu package is not available for Mac users, so in case you have a Mac, remove the first line of the `requirements.txt` where the `-f` flag is specified and adjust the lines of torch and torchvision to not mention cpu. The torch+cpu package should then later be used within the Docker based on Ubuntu and also on Binder and Heroku. Torch which supports both cpu and gpu computation is quite large ~1GB and Heroku would complain about the size quota. You can alternatively keep two version of the file, e.g. 1. `requirements.txt` and 2. `requirements-mac.txt`)
+* Install dependencies from `requirements.txt`.
 * Run the `jupyter notebook` server.
 * Run the cell 1 to see whether all imports work.
 * Create a readme.md file with just a name of the project.
-* Optionally, train the model and save it as a file.
-<!-- * If you run cells 1-4 the data will be downloaded into `data` folder which is needed only when you want to train the network. In the following exercises we will only need the pre-trained models, so download them from the repository into the root of your project. -->
+* Optionally, train the models and save them as files.
 
 ----
 
@@ -110,9 +109,6 @@ If you have a problem with DNS, try restarting docker with `sudo pkill docker` a
   * `--ip 0.0.0.0` expose the jupyter server so host can see it
 * Visit `localhost:8888` in your browser and copy the token, the jupyter notebook should now run.
 
-<!-- * Run `sudo docker run --rm -v <path_on_host_to_your_project_root>/data:/home/data -p 8888:8888 mlssv2022:latest jupyter notebook --allow-root --ip 0.0.0.0`.
-  * `-p` forwards port 8888 of the container to 8888 on the host
-  * `-v` mounts specified host folder to container's folder (paths must be absolute) -->
 ----
 
 ### Exercise 4 - Weights and Biases
