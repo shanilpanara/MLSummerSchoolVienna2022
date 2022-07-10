@@ -101,7 +101,8 @@ The assignment: Run a Jupyter notebook server in a Docker container.
 
 #### Build the image
 
-* Run `sudo docker build -t mlssv2022:latest -f .dockerfile .`.
+* Run `sudo docker build -t mlssv2022:latest -f .dockerfile .`. \
+If you have a problem with DNS, try restarting docker with `sudo pkill docker` and `service docker restart`.
 * In case your Docker errors on "killed" Adjust Docker Preferences Resources RAM - make it bigger, i.e. 4 or 6GB in the settings of your Docker.
 * Run `sudo docker run --rm -p 8888:8888 mlssv2022:latest jupyter notebook --allow-root --ip 0.0.0.0`.
   * `-p` forwards port 8888 of the container to 8888 on the host
