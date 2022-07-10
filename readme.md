@@ -116,7 +116,7 @@ The assignment: Run a Jupyter notebook server in a Docker container.
 
 ### Exercise 4 - Weights and Biases
 
-The assignment: Run and explore the wandb examples.
+The assignment: Run and explore the wandb examples.\
 Optional assignment: Adjust `notebook.ipynb` such that training is tracked in wandb.
 
 * Create an account at wandb.ai.
@@ -129,7 +129,7 @@ Optional assignment: Adjust `notebook.ipynb` such that training is tracked in wa
 
 ### Exercise 5 - Voila [slightly optional]
 
-The assignment: Create a simple interactive webapp using ipywidgets and Voila.
+The assignment: Create a simple interactive webapp using ipywidgets and Voila.\
 Optional assignment: Make the app run in Docker container.
 
 * Go back to the notebook which is running in virtual environment.
@@ -144,6 +144,8 @@ Optional assignment: Make the app run in Docker container.
 
 ### Exercise 6 - Binder [moderately optional]
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/paloha/MLSummerSchoolVienna2022/main?urlpath=%2Fvoila%2Frender%2Fwebapp.ipynb)
+
+The assignment: Make your project run for free using myBinder.org.
 
 * Make your git repo public if it is not already.
 * Go to [mybinder.org](https://mybinder.org) and fill in the form:
@@ -161,6 +163,8 @@ Optional assignment: Make the app run in Docker container.
 ----
 
 ### Exercise 7 - Heroku [very optional]
+
+The assignment: Deploy your project to a free instance on Heroku.
 
 * Create a free account on Heroku. It might still ask you to fill in your credit card though.
 * Add `Procfile` with `web: voila webapp.ipynb --no-browser --port $PORT`.
