@@ -1,4 +1,4 @@
-# ESI Summer School: Machine Learning for Materials Hard and Soft
+# ESI-DCAFM-TACO-VDSP Summer School on "Machine Learning for Materials Hard and Soft"
 11.07 - 22.07. 2022 in Vienna, Austria, [official website here](https://vds-physics.univie.ac.at/activities-benefits/activities/schools-academies/summer-school-2022/).
 
 ## Tuesday tutorial session
