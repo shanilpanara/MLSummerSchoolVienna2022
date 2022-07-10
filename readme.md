@@ -155,8 +155,7 @@ The assignment: Make your project run for free using myBinder.org.
 * Copy the binder markup badge into your `readme.md`.
 * Wait for app to run in Binder. It will take quite some time, but Binder is a free service, so...
 * Check how to use Docker with binder if needed [here](https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html).
-* When the app runs, have fun...
-<!-- You can try this [image](https://m.media-amazon.com/images/I/81U64AnQvkL._AC_UL1500_.jpg) for example. -->
+* When the app runs, have fun... You can try this [image](https://miro.medium.com/max/282/1*xpszL7jJrV5UTV7Xa-fgWQ.png) for example.
 
 \*An example badge to run the webapp from this repository on Binder is bellow the title of this exercise. Try to click it.
 
