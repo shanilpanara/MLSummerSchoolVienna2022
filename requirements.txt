@@ -1,5 +1,5 @@
-scikit-learn
-numpy
-matplotlib
-jupyter
-voila
+scikit-learn==1.0.2
+numpy==1.22.3
+matplotlib==3.5.1
+jupyter==jupyter
+voila==0.3.5

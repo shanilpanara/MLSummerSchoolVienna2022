@@ -26,17 +26,21 @@ By the end of the day, you should be able to:
 
 ----
 
-### Exercise 1 - Jupyter in Virtualenv
+### Exercise 1 - Jupyter in Virtualenv (or Conda)
 
 The assignment: Run a Jupyter notebook server from within a virtual environment.
+In case you are more comfortable with or prefer Conda, feel free to use it instead of virtualenv.
 
 * Create a new `MLSummerSchoolVienna2022` folder (this will be the root of this project).
 * Change director to your newly created project root folder.
+* Install `virtualenv` or `minioconda`.
 * Download the `notebook.ipynb` file from this repository.
-* Create a new empty file called `requirements.txt` and fill it with dependencies of `notebook.ipynb` + jupyter and voila (or just download it from the repository).
-* Install `virtualenv` & create a virtual environment in `venv` folder (steps depend on your OS).
-  In case you are more comfortable with Conda, feel free to use it instead of virtualenv.
-* Install dependencies from `requirements.txt`.
+* (virtualenv) Create a new empty file called `requirements.txt`
+* (conda) Create a new empty file called `requirements.yml`
+* Fill it the requirements file with dependencies of `notebook.ipynb` + `jupyter` and `voila` (or just download it from the repository).
+* (virtualenv) Create a virtual environment in `venv` folder and install the dependencies from requirements file.
+* (conda) Recreate the virtual environment from using the requirements file.
+* Activate the virtual environment.
 * Run the `jupyter notebook` server.
 * Run the cell 1 to see whether all imports work.
 * Create a readme.md file with just a name of the project.
@@ -120,7 +124,7 @@ Optional assignment: Adjust `notebook.ipynb` such that training is tracked in wa
 * Log in to your account and try the Example (wandb.me/intro) and run it until the "Run experiment" cell finishes.
 * Check the results in the wandb.ai account.
 * Check also these examples https://github.com/wandb/examples.
-* If you feel motivated, change the `notebook.ipynb` such that it tracks the training into wandb and view the results in the web interface.
+* If you feel motivated, open one of the Google Colab notebooks from [Monday's tutorial](https://github.com/CompPhysVienna/MLSummerSchoolVienna2022/tree/main/Day01_July11) and change it such that it tracks the training into wandb, and view the results in the web interface.
 
 ----
 
