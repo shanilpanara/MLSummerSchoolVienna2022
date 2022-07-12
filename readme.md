@@ -52,13 +52,21 @@ In case you are more comfortable with or prefer Conda, feel free to use it inste
 
 The assignment: Create a new repository for this project and push an initial commit into it.
 
+#### Install Git on your machine
+
+* On Ubuntu `sudo apt install git-all` \
+  For other OS consult the [user guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). We will use git without a graphical user interface (so on Windows, please use Git Bash emulator which should be installed automatically with git).
+
+
 #### Make sure you can authenticate with git using ssh key
 
 * Create an account on github.com.
+* Make sure you have an SSH key generated. If not, generate it using [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 * Go to `github.com > settings > SSH and GPG keys`.
-* Copy your public ssh key from the output of `cat ~/.ssh/id_rsa.pub` (depends on your OS).
-* Add it to the github keys and verify with `ssh -T git@github.com`.
-* In case of different OS or some problems consult the [github guide](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection).
+* Copy your public SSH key and add it to your GitHub keys. \
+  On Ubuntu you can copy your key using `cat ~/.ssh/id_rsa.pub`.
+* Verify the SSH key authentication works with `ssh -T git@github.com`.
+* In case of different OS or some problems consult the [GitHub guide](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection).
 
 #### Create a new repository, initialize & push your project to origin
 
