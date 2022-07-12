@@ -50,7 +50,7 @@ In case you are more comfortable with or prefer Conda, feel free to use it inste
 
 ----
 
-### Exercise 2 - Git
+### Exercise 2 - Git (hello)
 
 The assignment: Create a new repository for this project and push an initial commit into it.
 
